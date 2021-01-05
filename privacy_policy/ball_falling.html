@@ -5,6 +5,7 @@
 	<title>
 		Alllt1r
 	</title>
+	<!--<meta name="theme-color" content="#373758">-->
 	<style>
 		@font-face {
     font-family: 'MyFont';
@@ -23,9 +24,9 @@
     font-family: MyFont;
 }
 .wrapper2{
-    font-size: 150%;
-    padding-left: calc(50% - 350px);
-    width: 700px;
+    font-size: 200%;
+    padding-left: calc(50% - 370px);
+    width: 800px;
 }
 .wrapper3{
     text-align: center;
@@ -33,11 +34,33 @@
     padding-bottom: 150px;
     font-family: MyFont;
 }
+
+.wrapper4{
+    position: absolute;     
+    left: calc(50% - (441px / 2));
+}
+
+.image{
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
+.image:hover{
+    border-radius: 50px;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 1);
+}
+
+.wrapper5{
+    text-align: center;
+}
+
 .container{
     position: absolute;
     top: 130px;
-    left: calc(50% - 115px);
+    left: calc(50% - 100px);
+    transition: 1s;
 }
+
 .preview-block__btn {
     max-width: 350px;
     margin-top: 35px;
@@ -64,7 +87,6 @@
     border-bottom: 2px solid #3e58ea;
     border-radius: 25px;
     position: relative;
-    font-size: 25px;
     font-weight: bold;
     text-decoration: none;
     color: #FFF;
@@ -73,13 +95,19 @@
     cursor: pointer;
     overflow: hidden;
     background: #536DFE;
-    background: #536DFE;
+    background: #536dfe;
     background: #536DFE;
     -webkit-box-shadow: 0px 9px 16px 0px #536DFE;
     box-shadow: 0px 9px 16px 0px #536DFE;
     -webkit-transition: ease 0.3s;
     transition: ease 0.3s;
+    -webkit-transition: 1s;
     transition: 1s;
+}
+
+.custom-btn:hover{
+    background: #495ed8;
+    
 }
 
 .custom-btn:before {
@@ -123,14 +151,16 @@
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
 }
-@-webkit-keyframes slideme { 0% { left: -30px; margin-left: 0px; }
+
+@keyframes slideme {
+  0% { left: -30px; margin-left: 0px; }
   30% { left: 110%; margin-left: 80px; }
   100% { left: 110%; margin-left: 80px; } }
 
 	</style>
-	<!--<meta name="theme-color" content="#373758">-->
 </head>
 <body>
+	<br>
 	<div class="wrapper1">
 		<strong>Ball Falling</strong>
 	</div>
@@ -138,15 +168,38 @@
 		<a>Privacy Policy</a>
 	</div>
 	<div class="container">
-		<a href="https://alllt1r.github.io/" class="preview-block__btn custom-btn" style="font-size: 50px; font-family: MyFont;" >
+		<a href="https://alllt1r.github.io/privacy_policy/index.html" class="preview-block__btn custom-btn" style="font-size: 50px; font-family: MyFont;" >
 			<span>Main</span>
 		</a>
 	</div>
-
 	<div class="wrapper2">
 		<div style="font-family: MyFont;">
 			<a>Privacy Policy<br><br><br>Developer built the [Ball Falling] app as an Ad Supported app. This "app"<br>is provided by at no cost and is intended for use as is:<br><br><br>This privacy policy is used to inform you regarding policies with the collection, use, and<br>disclosure of Personal Information if anyone decided to use this Service.<br><br><br>1. Overview<br><br>The app uses advertising (and in app payments) to make revenue. The app uses third party<br>libraries for advertising which may collect and share personal information with third<br>parties.<br><br>Links to privacy policies of third party service providers used in the app<br><br>Google Play Services https://www.google.com/policies/privacy/<br>AdMob https://support.google.com/admob/answer/6128543<br><br><br>2.) Sharing Your Information<br><br>The developer will share personal information with third parties only in the ways that are<br>described in this privacy statement.<br><br>Your personal information may be disclosed:<br>* As required by law, such as to comply with a subpoena, or similar legal process.<br>* To any other third party with your prior consent to do so.<br><br><br>3. What information are collected and why<br><br>3.1 AdMob<br><br>AdMob, is Google's mobile app advertising platform designed specifically for app<br>developers. In order to understand Google's use of Data, consult Google's partner policy.<br><br>Personal Data:<br>* Online identifiers, including cookie identifiers<br>* IP addresses<br>* Device identifiers<br>* Client identifiers<br>* unique device identifiers for advertising (Google Advertiser ID or IDFA, for example)<br>* Usage Data.<br><br>Retention:<br>Google anonymizes the log data by removing part of the IP address (after 9 months) and<br>cookie information (after 18 months)<br><br>Online resources:<br>* Privacy Policy https://www.google.com/policies/technologies/ads/<br>* Opt out https://www.google.com/settings/ads<br>* Service Information https://privacy.google.com/businesses/adsservices/<br>* Partner policy https://policies.google.com/technologies/partner-sites<br>* Ad technology providers https://support.google.com/admob/answer/9012903<br><br><br>3.2 Google Play Services<br><br>Google Play Services offers APIs and security services to the Android developer ecosystem.<br>Google acts as a data controller for any personal data processed in Google Play Services,<br>and offers user notices and consents about the use of personal data in the serviceвЂ™s user<br>interface in Android.<br><br>Collected informations:<br>* Device information<br>* Log information<br>* Location information<br>* Unique application numbers<br>* Local storage<br>* Cookies and similar technologies<br><br>Google use the collected information to provide, maintain, protect and improve Google's<br>services, to develop new ones, and to protect Google and the users. Google also use this<br>information to offer you tailored content вЂ“ like giving you more relevant search results<br>and ads.<br><br>Online resources:<br>* Google Terms of Service https://policies.google.com/terms<br>* Google Privacy Policy https://policies.google.com/privacy<br><br><br>4. Security<br><br>I am striving to use commercially acceptable means of protecting your Personal<br>Information. But remember that no method of transmission over the internet, or method of<br>electronic storage is 100% secure and reliable, and I cannot guarantee its absolute<br>security.<br><br><br>5. Links to Other Sites<br><br>This Service may contain links to other sites. If you click on a third-party link, you<br>will be directed to that site. Note that these external sites are not operated by me.<br>Therefore, I strongly advise you to review the Privacy Policy of these websites. I have<br>no control over and assume no responsibility for the content, privacy policies, or<br>practices of any third-party sites or services.<br><br><br>6. ChildrenвЂ™s Privacy<br><br>These Services do not address anyone under the age of 16. I do not knowingly collect<br>personally identifiable information from children under 16. In the case I discover that<br>a child under 16 has provided me with personal information, I immediately delete those<br>informations. If you are a parent or guardian and you are aware that your child has<br>provided personal information, please contact me so that I will be able to do necessary<br>actions.<br><br><br>7. Distribution<br><br>The only official channel for distribution of this app are:<br>* Google Play Store https://play.google.com/<br><br>Any other mode of distribution is not official and thus, is not maintained by the developer.<br>This privacy policy is effective to distribution made on official channel only.<br><br><br>8. Changes to This Privacy Policy<br><br>This policy may be updated from time to time.<br><br><br>Contact me<br><br>If you have any questions or suggestions about my Privacy Policy, do not hesitate to<br>contact me.<br><br>danilkazakov2007@gmail.com</a>
 		</div>	
 	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="wrapper4">
+		<a style="padding: 5px;" class="button_icon" href="https://www.instagram.com/danil__kazakov_/"><img src="icon_Instagram.png" class="image"></a>
+		<a style="padding: 5px;" class="button_icon" href="https://www.youtube.com/channel/UCciguu5PCsEWlnXnwtwWF0g?view_as=subscriber"><img src="icon_Youtube.png" class="image"></a>
+		<a style="padding: 5px;" class="button_icon" href="https://www.facebook.com/profile.php?id=100038087317301"><img src="icon_Facebook.png" class="image"></a>
+		<a style="padding: 5px;" class="button_icon" href="https://vk.com/id565084934"><img src="icon_VKontakte.png" class="image"></a>
+		<a style="padding: 5px;" class="button_icon" href="https://www.pinterest.com/alllt1r/_created/"><img src="icon_Pinterest.png" class="image"></a>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="wrapper5" style="font-family: MyFont; font-size: 23px;">
+		You can also contact me by 
+		<br>
+		danilkazakov2007@gmail.com
+	</div>
+	<br>
 </body>
 </html>
