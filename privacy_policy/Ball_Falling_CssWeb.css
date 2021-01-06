@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('https://alllt1r.github.io/fonts/comicneue-regular-webfont.woff2') format('woff2'),
+         url('https://alllt1r.github.io/fonts/comicneue-regular-webfont.woff') format('woff'),
+         url('https://alllt1r.github.io/fonts/comicneue-regular-webfont.svg') format('svg'),
+         url('https://alllt1r.github.io/fonts/ComicNeue-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+.wrapper1{
+    position: relative;
+    text-align: center;
+    font-size: 70px;
+    font-family: MyFont;
+}
+.wrapper2{
+    position: relative;
+    width: calc(100% - 100px);
+    max-width: 920px;
+    font-size: 150%;
+    font-family: MyFont;
+    padding: 15px;
+    align-items: center;
+    background: linear-gradient(90deg, black 50%, transparent 50%), linear-gradient(90deg, black 50%, transparent 50%), linear-gradient(0deg, black 50%, transparent 50%), linear-gradient(0deg, black 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+    background-position: 0px 0px, 200px 100px, 0px 100px, 200px 0px;
+    animation: border-dance 4s infinite linear;
+}
+
+
+.wrapper3{
+    text-align: center;
+    font-size: 40px; 
+    font-family: MyFont;
+}
+
+.wrapper4{
+    position: absolute;     
+    left: calc(50% - (441px / 2));
+    padding-top: 100px;
+}
+
+.image{
+    width: 75px;
+    height: 75px;
+    transition: 0.5s;
+}
+.image:hover{
+    border-radius: 50px;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 1);
+}
+
+.wrapper5{
+    padding-top: 200px;
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    width: 200px;
+    left: calc(50% - 100px);
+    
+    transition: 1s;
+    padding-bottom: 50px;
+}
+
+.preview-block__btn {
+    max-width: 350px;
+    margin-top: 35px;
+}
+
+.custom-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 200px;
+    height: 80px;
+    padding-top: 2px;
+    border: none;
+    border-bottom: 2px solid #3e58ea;
+    border-radius: 25px;
+    position: relative;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    overflow: hidden;
+    background: #536DFE;
+    background: #536dfe;
+    background: #536DFE;
+    -webkit-box-shadow: 0px 9px 16px 0px #536DFE;
+    box-shadow: 0px 9px 16px 0px #536DFE;
+    -webkit-transition: ease 0.3s;
+    transition: ease 0.3s;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.custom-btn:hover{
+    background: #495ed8;
+    
+}
+
+.custom-btn:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fa4923;
+    opacity: 0;
+    z-index: 1;
+    -webkit-transition: ease 0.3s;
+    transition: ease 0.3s;
+}
+
+.custom-btn:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 300px;
+    margin-left: 60px;
+    background: #fff;
+    position: absolute;
+    left: -40px;
+    top: -150px;
+    z-index: 1;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+    -webkit-animation-name: slideme;
+    animation-name: slideme;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-delay: 0.05s;
+    animation-delay: 0.05s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slideme {
+  0% { left: -30px; margin-left: 0px; }
+  30% { left: 110%; margin-left: 80px; }
+  100% { left: 110%; margin-left: 80px; } }
+
+  @keyframes border-dance {
+    0% {
+      background-position: 0px 0px, 150px calc(100% - 100px + 100px), 0px 150px, calc(100% - 100px + 100px) 0px;
+    }
+    100% {
+      background-position: 150px 0px, 0px calc(100% - 100px + 100px), 0px 0px, calc(100% - 100px + 100px) 150px;
+    }
+  }
