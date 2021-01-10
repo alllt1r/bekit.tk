@@ -1,4 +1,13 @@
-
+@font-face {
+    font-family: 'MyFont';
+    src: url('https://alllt1r.github.io/fonts2/ComicSansMs.woff2') format('woff2'),
+         url('https://alllt1r.github.io/fonts2/ComicSansMs.woff') format('woff'),
+         url('https://alllt1r.github.io/fonts2/ComicSansMs.svg') format('svg'),
+         url('https://alllt1r.github.io/fonts2/ComicSansMs.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+000-5FF;
+}
 
 @font-face {
     font-family: 'MyFont';
@@ -8,6 +17,7 @@
          url('https://alllt1r.github.io/fonts/ComicNeue-Regular.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
+    unicode-range: U+0020—007F;
 }
 
 
