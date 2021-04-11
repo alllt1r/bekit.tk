@@ -22,6 +22,10 @@
 
 
 @media screen and (max-height: 1080px) {
+    .wrapper-body {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+    }
     .wrapper1{
         position: relative;
         text-align: center;
@@ -181,6 +185,10 @@
 
 
 @media screen and (min-height: 1081px) {
+    .wrapper-body {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+    }
     .wrapper1{
         position: relative;
         text-align: center;
