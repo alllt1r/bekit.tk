@@ -75,7 +75,7 @@
     
     .wrapper4{
         position: absolute;     
-        left: calc(50% - (441px / 2));
+        text-align: left;
         padding-top: 100px;
     }
 
