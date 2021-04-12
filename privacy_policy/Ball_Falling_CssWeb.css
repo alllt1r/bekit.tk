@@ -24,7 +24,7 @@
 @media screen and (max-height: 1080px) {
     .wrapper-main {
         font-family: MyFont;
-        text-align: center;
+        text-align: left;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -201,7 +201,7 @@
 @media screen and (min-height: 1081px) {
     .wrapper-main {
         font-family: MyFont;
-        text-align: center;
+        text-align: left;
         position: relative;
         display: flex;
         flex-direction: column;
