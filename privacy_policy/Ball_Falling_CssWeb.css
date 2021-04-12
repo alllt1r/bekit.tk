@@ -24,6 +24,7 @@
 @media screen and (max-height: 1080px) {
     .wrapper-main {
         font-family: MyFont;
+        align-self: center;
         position: relative;
         display: flex;
         flex-direction: column;
